@@ -10,7 +10,6 @@ public class Hopital {
 
     public Hopital() {
         medecinPatiens = new HashMap<>();
-
     }
 
     public void ajouterMedecin(Medecin m) {
