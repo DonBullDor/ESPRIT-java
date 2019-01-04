@@ -23,7 +23,6 @@ public class Hopital {
         } else {
             ajouterMedecin(m);
             medecinPatiens.get(m).afficherPatients();
-
         }
     }
 
@@ -39,7 +38,6 @@ public class Hopital {
         medecinPatiens.get(m).getListP().stream().
                 filter(p -> p.getNom().equals("Mohmed"))
                 .forEach(System.out::println);
-
     }
     /* Retourner les noms des patients dont le " numSecuriteSociale = 1" */
  /*public List<String> RetournerNomPatients (){        
@@ -51,5 +49,4 @@ public class Hopital {
                 }).get().stream().filter()
        
     }*/
-
 }
