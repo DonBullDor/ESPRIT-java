@@ -20,7 +20,7 @@ public class Level3 {
                 .map(t -> t.getName())
                 .reduce("", String::concat);/* ((t,t1)->t+"  "+t1)*/
 
- /* TO DO 2: Retourner une chaine de caract�re qui contient tous les noms des employ�s en majuscule separ�s par # */
+        /* TO DO 2: Retourner une chaine de caract�re qui contient tous les noms des employ�s en majuscule separ�s par # */
         String namesMajSplit = employees.stream()
                 .map(t -> t.getName().toUpperCase())
                 .reduce("#", (t, t1) -> t + "  " + t1);
