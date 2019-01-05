@@ -22,7 +22,7 @@ public class Hopital {
 
         } else {
             ajouterMedecin(m);
-            medecinPatiens.get(m).afficherPatients();
+            medecinPatiens.get(m).ajouterPatients();
         }
     }
 
